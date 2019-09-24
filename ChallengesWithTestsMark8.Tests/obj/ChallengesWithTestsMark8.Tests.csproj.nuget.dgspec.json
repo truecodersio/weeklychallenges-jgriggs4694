@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj": {}
+    "/Users/jacksongriggs/Documents/REPO/weeklychallenges-jgriggs4694/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj": {}
   },
   "projects": {
-    "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj": {
+    "/Users/jacksongriggs/Documents/REPO/weeklychallenges-jgriggs4694/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
+        "projectUniqueName": "/Users/jacksongriggs/Documents/REPO/weeklychallenges-jgriggs4694/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
         "projectName": "ChallengesWithTestsMark8.Tests",
-        "projectPath": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
-        "packagesPath": "/Users/michaeldoyle/.nuget/packages/",
-        "outputPath": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8.Tests/obj/",
+        "projectPath": "/Users/jacksongriggs/Documents/REPO/weeklychallenges-jgriggs4694/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
+        "packagesPath": "/Users/jacksongriggs/.nuget/packages/",
+        "outputPath": "/Users/jacksongriggs/Documents/REPO/weeklychallenges-jgriggs4694/ChallengesWithTestsMark8.Tests/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/michaeldoyle/.config/NuGet/NuGet.Config"
+          "/Users/jacksongriggs/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -28,8 +28,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {
-                "projectPath": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj"
+              "/Users/jacksongriggs/Documents/REPO/weeklychallenges-jgriggs4694/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {
+                "projectPath": "/Users/jacksongriggs/Documents/REPO/weeklychallenges-jgriggs4694/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj"
               }
             }
           }
@@ -63,27 +63,33 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {
+    "/Users/jacksongriggs/Documents/REPO/weeklychallenges-jgriggs4694/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
+        "projectUniqueName": "/Users/jacksongriggs/Documents/REPO/weeklychallenges-jgriggs4694/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
         "projectName": "ChallengesWithTestsMark8",
-        "projectPath": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
-        "packagesPath": "/Users/michaeldoyle/.nuget/packages/",
-        "outputPath": "/Users/michaeldoyle/Downloads/ChallengesWithTests-Mark8/ChallengesWithTestsMark8/obj/",
+        "projectPath": "/Users/jacksongriggs/Documents/REPO/weeklychallenges-jgriggs4694/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
+        "packagesPath": "/Users/jacksongriggs/.nuget/packages/",
+        "outputPath": "/Users/jacksongriggs/Documents/REPO/weeklychallenges-jgriggs4694/ChallengesWithTestsMark8/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/michaeldoyle/.config/NuGet/NuGet.Config"
+          "/Users/jacksongriggs/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
@@ -106,16 +112,23 @@
         "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

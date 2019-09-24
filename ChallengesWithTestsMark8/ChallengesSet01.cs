@@ -1,42 +1,65 @@
 ﻿using System;
-
+//DONE
 namespace ChallengesWithTestsMark8
 {
     public class ChallengesSet01
     {
         public bool AreTwoNumbersTheSame(int num1, int num2)
         {
-            throw new NotImplementedException();
+            if (num1 == num2)
+            {
+                return true;
+            }
+            else
+            {
+                return false;      
+            }
         }
 
         public double Subtract(double minuend, double subtrahend)
         {
-            throw new NotImplementedException();
-        }
+            var subtract = minuend - subtrahend;
 
-        public int Add(int number1, int number2)
+            return subtract;
+        } 
+
+        public int Add(int addend, int addend2)
         {
-            throw new NotImplementedException();
+            var add = addend + addend2;
+
+            return add;
         }
 
         public int GetSmallestNumber(int number1, int number2)
         {
-            throw new NotImplementedException();
+            var getSmallestNumber = (number1 == number2);
+                
+            if (number1 > number2)
+            {
+                return number2;
+            }
+            else 
+            {
+                return number1; 
+            }
+
         }
 
         public long Multiply(long factor1, long factor2)
         {
-            throw new NotImplementedException();
+            var multiply = (factor1 * factor2);
+            return multiply;
         }
 
         public string GetGreeting(string nameOfPerson)
         {
-            throw new NotImplementedException();
+            return nameOfPerson == "" ?  "Hello!" : $"Hello, {nameOfPerson}!";  //"Hello, " + nameOfPerson + "!";
+
         }
 
         public string GetHey()
         {
-            throw new NotImplementedException();
+            return "HEY!";
         }
     }
 }
